@@ -1,0 +1,60 @@
+---
+---
+
+@import "component";
+
+body{
+	font-family: courier;
+	text-align: center;
+}
+
+article{
+	line-height: 1.5em;
+	max-width: 32rem;
+	text-align: justify;
+	margin: auto;
+
+	h1, h2, h3{
+		text-align: center;
+	}
+}
+
+
+blockquote{
+	font-size: 0.8rem;
+	line-height: 1em;
+	text-align: left;
+}
+
+code{
+	display: inline-block;
+	max-width: 100%;
+	white-space: pre-line;
+	text-align: left;
+	// overflow-x: auto;
+	// overflow-y: clip;
+
+	font-family: monospace;
+}
+
+nav{
+	a{
+		text-decoration: none;
+	}
+	ul{
+		padding: 0;
+		list-style: none;
+	}
+
+	span{
+		text-transform: uppercase;
+		margin-top: 1rem;
+		display: block;
+	}
+	span::before{
+		content: "- "
+	}
+	span::after{
+		content:" -"
+	}
+}
