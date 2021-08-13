@@ -132,5 +132,34 @@ for more details about defaults and scopes, visit the official documentation: ht
 
 Dont forget, to the new config to take effect the server must be restarted.
 
+## Setup github pages
+
+first of all init git, and commit git
+
+```
+git init
+git add --all
+git commit -m 'initial commit'
+```
+
+create a github repo on github.com and follow the instructions there: 
+
+- add remote origin
+- set main as the default branch
+- and push to github
+
+Now setup the pages under setting/pages to host from the main branch.
+
+And optionally create a readme.md in root and place the page's link into it.
+
+**README.md**
+```
+# My cool site
+
+demo: https://zalavariandris.github.io/bablab-jekyll/
+```
+
+
+
 
 
