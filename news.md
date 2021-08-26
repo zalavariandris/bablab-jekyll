@@ -1,5 +1,5 @@
 ---
-title: news
+title: News
 layout: default
 ---
 
@@ -8,7 +8,7 @@ layout: default
 <ul>
 {% for post in site.posts %}
 	<li>
-	{{post.title}}
+		<a href="{{post.url}}">{{post.title}}</a>
 	</li>
 {% endfor %}
 </ul>

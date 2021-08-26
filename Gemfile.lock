@@ -216,6 +216,7 @@ GEM
       unf_ext
     unf_ext (0.0.7.7-x64-mingw32)
     unicode-display_width (1.7.0)
+    wdm (0.1.1)
     zeitwerk (2.4.2)
 
 PLATFORMS
@@ -224,6 +225,10 @@ PLATFORMS
 DEPENDENCIES
   eventmachine (= 1.2.7)!
   github-pages (~> 217)
+  jekyll-feed (~> 0.12)
+  jekyll-seo-tag
+  jekyll-sitemap
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.2.18

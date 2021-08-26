@@ -1,5 +1,5 @@
 ---
-layout: default
+title: Jekyll site from scratch on github-pages
 ---
 
 # Create a jekyll blog from scratch
@@ -7,7 +7,7 @@ layout: default
 ## Setup jekyll
 Instead of using a built in jekyll theme (which is created with ```jekyll new myblog``` by default) we will use the blank option, so we can create our own local theme without interferring the default theme.
 
-fire up the windows commandline, and navigate to a directory where you want to keep yout blog, and run the following:
+fire up the windows commandline, and navigate to a directory where you want to keep your blog, and run the following:
 
 `jekyll new bablab-jekyll --blank`
 
@@ -50,7 +50,7 @@ fire up a local dev server by running
 
 and browse to localhost:4000
 
-## create navigation
+## Create Navigation
 open default.html in an editor.
 inside the body tag we will list all our pages, posts and collections.
 
@@ -158,6 +158,11 @@ And optionally create a readme.md in root and place the page's link into it.
 
 demo: https://zalavariandris.github.io/bablab-jekyll/
 ```
+
+Your site probably up an running on github-pages now.
+But you like to have tou fancy custom domain.
+
+## Custom domain
 
 
 

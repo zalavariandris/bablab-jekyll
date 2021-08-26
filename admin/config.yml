@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+# This line should *not* be indented
+media_folder: "assets/images"
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    folder: "_projects"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
